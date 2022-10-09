@@ -1,0 +1,100 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+LIGHT: #D7F9F1 
+LIGHT green: #618B4A
+DARK green: #40531B
+
+*/
+.hero{
+    color:#D7F9F1;
+    background-image: url("https://akm-img-a-in.tosshub.com/sites/rd/resources/201908/lahore_1566551840_1200x675.png?size=684:384?size=1200:675"); 
+    background-repeat:repeat;
+    background-size: cover;
+    height: 250px;
+    padding-top: 200px;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+img {
+    width: 100px;
+}
+.flex{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.flex-img{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    background-color: #618B4A;
+    padding: 5px 10px;
+    border-radius: 10%;
+    margin: 50px 0px 10px 0px;
+}
+#title2{
+    background-color: #40531B;
+    padding: 5px 10px;
+    border-radius: 10%;
+    margin: 0px;
+}
+.activities{
+    background-color:#D7F9F1 ;
+    color:#40531B;
+    font-size: 15px;
+    margin: 0px;
+    padding: 2px 0px;
+}
+#act-img1{
+    height: 94px;
+    border-radius: 100%;
+}
+#act-img2{
+    border-radius: 100%;
+}
+#act-img3{
+    height: 94px;
+    border-radius: 100%;
+}
+#g{
+    display:flex;
+    align-items:center; 
+}
+.guide{
+    font-size: 13px;
+    max-width: 280px;
+    max-height: 165px;
+    color: #D7F9F1;
+    background-color: #618B4A;
+    border-bottom: 5px solid #40531B;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+.flex-guide{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px 10px 0px 10px; 
+}
+#text{
+  margin: 20px 10px 10px 5px;   
+}
+.gg{
+    background-color: #B2BD7E;
+    padding: 2px;
+}
+.hover:hover{
+    font-size: 18px;
+    background: linear-gradient(#96E072,#3DA35D);
+    border-radius:5%; 
+    padding: 1px;
+}
